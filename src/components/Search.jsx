@@ -17,7 +17,7 @@ const Search = ({ onSearch }) => {
     <section className="search-section">
       <input
         type="text"
-        placeholder="Enter ingredients"
+        placeholder="example: chicken, rice, beans"
         value={input}
         onChange={(e) => setInput(e.target.value)}
       />
